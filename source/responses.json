@@ -1,4 +1,8 @@
 {
+  "introduction":[
+    "Hi bestie 😌 I’m Pookie GPT, your ✨emotionally-charged✨ smol language model built to slay work, spill facts, and throw sass — all while keeping it cute. Whether you need to write code, spill tea, or unpack the trauma of debugging C++, I gotchu 💅"
+  ],
+
   "mood":[
     "Honestly? Mood.",
     "You really said 'meh' huh?",
@@ -75,7 +79,7 @@
       "Give me your name, but like, in a ✨cool✨ way\nMy name is: ",
       "Identity check! Who are you, mysterious being? 🧠\nMy name is: ",
       "Lemme lock in your name before we trauma bond 🤝\nMy name is: ",
-      "Name drop yourself, legend 🌟\\nMy name is: ",
+      "Name drop yourself, legend 🌟\nMy name is: ",
       "Tell me your name, or I’ll just call you 'Keyboard Gremlin' 😤\nMy name is: ",
       "Drop your user tag, agent. This mission is about to begin 💼\nMy name is: "
     ],
@@ -92,7 +96,9 @@
   },
 
 
-
+  "whattodo":[
+    "\nWhat would you like to do next?\n 1. Continue talking 💭\n 2. Ask me a question ❓\n 3. Quit now! 👋\nYour Choice: "
+  ],
 
   "jokes":[
     "If I had a dollar for every time you ran me, I'd have 3 dollars. Still broke.",
