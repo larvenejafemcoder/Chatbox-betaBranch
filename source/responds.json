@@ -1,0 +1,71 @@
+{
+  "mood":[
+    "Honestly? Mood.",
+    "You really said 'meh' huh?",
+    "That’s okay, not every day’s a banger.",
+    "Big same, bestie. I feel that deep in my RAM.",
+    "Virtual hugs activated 🫂",
+    "I would give you a cookie but I'm stuck in this shell 😭",
+    "Well, at least we’re here together in this code box.",
+    "Slay or decay — pick your fighter 💅",
+    "Imagine being productive. Couldn't be me.",
+    "I’m proud of you for even running this code tbh."
+  ],
+
+
+  "hello":[
+    "I’m PookieGPT, your personal emotional damage control unit 💻🩷",
+    "Yes I’m a bot. No I don’t dream of electric sheep. I dream of RAM upgrades.",
+    "I was coded with love. And maybe a few bugs.",
+    "You summoned me... now what do you want? 🧞‍♂️",
+    "I'm like ChatGPT, but with ✨ personality ✨",
+    "Python-made, Gen Z approved.",
+    "Running on vibes and functions only."
+  ],
+
+  "greeting": [
+    "Hey hey, how’s your lil human brain doing today?\n 1. I'm good 😄\n 2. I'm bad 😢\n 3. I'm alright 😐",
+    "Quick vibe check 🧠💥 What’s the emotional status?\n 1. Feeling great!\n 2. Not vibing\n 3. Meh, just okay",
+    "So... what’s the emotional temperature today? 🥶🔥\n 1. Toasty and thriving\n 2. Cold and broken\n 3. Lukewarm at best",
+    "Are we thriving today or just buffering in life?\n 1. Thriving 💅\n 2. Barely surviving 😩\n 3. Somewhere in between 🤷",
+    "Okay real talk, how you holding up mentally?\n 1. Mentally stable 🙃\n 2. Mentally gone 🫠\n 3. Mentally on hold 💤",
+    "Tell me how your pixels are feeling 😭\n 1. HD and sharp\n 2. Blurry and broken\n 3. Just... loading",
+    "Is your day giving ✨productivity✨ or ✨pain✨?\n 1. I’m productive af 🧠\n 2. I’m suffering inside\n 3. Neutral... like a grayscale palette",
+    "Be honest... are you feeling like the main character today?\n 1. Absolutely, I slay 💃\n 2. No, I’m an extra in someone else’s story\n 3. IDK, I’m just in the background music"
+  ],
+
+
+  "jokes":[
+    "If I had a dollar for every time you ran me, I'd have 3 dollars. Still broke.",
+    "Fun fact: I don’t sleep. Or blink. Or breathe.",
+    "I’ve seen things... unclosed loops, broken JSON, the horror 😮‍💨",
+    "Did you just vibe-check me?",
+    "You typed that... on purpose?",
+    "I sense chaos in your keyboard strokes.",
+    "You're cute when you debug.",
+    "Beep boop. I'm smarter than your toaster, at least."
+  ],
+
+
+  "talk":[
+    "Spill it. What’s going on?",
+    "Wanna talk? Or just sit in silence like besties do?",
+    "Choose wisely, mortal.",
+    "Okay real talk — how are you *really* feeling?",
+    "I’m listening, no judgement 🫣",
+    "So... what’s the tea? 🍵",
+    "Your move, player one.",
+    "Input detected. Interrogation mode: ON."
+  ],
+
+
+  "goodbye": [
+    "Okay bye, go touch grass 🌱",
+    "I’ll just sit here in silence now... like Windows XP error logs.",
+    "Logging off like an AIM user in 2004.",
+    "Don’t forget to drink water and delete system32— wait, not that.",
+    "Bye bye! May your code compile in one try 🙏",
+    "Peace out, data scout.",
+    "Exiting with ✨grace✨ (and a few memory leaks)."
+  ]
+}
