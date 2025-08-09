@@ -22,6 +22,6 @@ pychatbox/
 ```
 
 ### Ideas: 
-Make some ascii art in python_ChatBox
-Refactor Similar Functions
-Make PookieGPT ask more question
+##### Make some ascii art in python_ChatBox
+##### Refactor Similar Functions
+##### Make PookieGPT ask more question
