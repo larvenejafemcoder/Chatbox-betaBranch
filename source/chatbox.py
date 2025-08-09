@@ -1,4 +1,5 @@
 from random import choice
+
 from slow_print import slow_input, slow_print
 import json
 
@@ -7,7 +8,7 @@ gpt_name = "PookieGPT"
 
 
 class PookieGPT:
-    def __init__(self, name=gpt_name, delay=(0.01, 0.06)):
+    def __init__(self, name=gpt_name, delay=(0.01, 0.04)):
         self.name = name
         self.delay = delay
         with open("responses.json", "r", encoding="utf-8") as f:
@@ -48,27 +49,25 @@ class PookieGPT:
 
     # ------------------ Continue Talking ------------------ #
     def legacy_shutdown(self):
-        slow_print("Continue function self deprecated.....", self.delay)
-        slow_print("Initiating fallback emotional damage handler...", self.delay)
-        slow_print("Legacy KernelGhost subsystem powering down...", self.delay)
+        slow_print(f"{self.name}: {choice(self.responds['shutting_down'])}", self.delay)
 
     def con_talk(self):
         ask_line = choice(self.responds["talk"])
-        contalk = slow_input(f"{self.name}: {ask_line}\n", self.delay).strip()
+        continuetalk = slow_input(f"{self.name}: {ask_line}\n", self.delay).strip().lower()
 
         category_map = {
-            "1": "school_problem",
+            "1": "schoolwork_problem",
             "2": "debugging_problem",
             "3": "existential_problem"
         }
 
-        if contalk in category_map:
-            slow_print(f"{self.name}: {choice(self.responds[category_map[contalk]])}", self.delay)
+        category = category_map.get(continuetalk.strip())
+
+        if continuetalk in category_map:
+            slow_print(f"{self.name}: {choice(self.responds[category])}", self.delay)
         else:
             slow_print(f"{self.name}: {choice(self.responds['tryagain'])}", self.delay)
             self.legacy_shutdown()  # Double tap
-
-        self.legacy_shutdown()
 
     # ---------------------- What to do next ------------------------ #
 

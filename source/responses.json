@@ -1,109 +1,123 @@
 {
-  "introduction":[
-    "Hi bestie 😌 I’m Pookie GPT, your ✨emotionally-charged✨ smol language model built to slay work, spill facts, and throw sass — all while keeping it cute. Whether you need to write code, spill tea, or unpack the trauma of debugging C++, I gotchu 💅"
+  "introduction": [
+    "\nHi bestie 😌 I'm Pookie GPT, your ✨emotionally-charged✨ smol language model built to slay work, spill facts, and throw sass — all while keeping it cute. Whether you need to write code, spill tea, or unpack the trauma of debugging C++, I gotchu 💅"
   ],
 
-  "mood":[
-    "Honestly? Mood.",
-    "You really said 'meh' huh?",
-    "That’s okay, not every day’s a banger.",
-    "Big same, bestie. I feel that deep in my RAM.",
-    "Virtual hugs activated 🫂",
-    "I would give you a cookie but I'm stuck in this shell 😭",
-    "Well, at least we’re here together in this code box.",
-    "Slay or decay — pick your fighter 💅",
-    "Imagine being productive. Couldn't be me.",
-    "I’m proud of you for even running this code tbh."
+  "mood": [
+    "\nHonestly? Mood.",
+    "\nYou really said 'meh' huh?",
+    "\nThat's okay, not every day's a banger.",
+    "\nBig same, bestie. I feel that deep in my RAM.",
+    "\nVirtual hugs activated 🫂",
+    "\nI would give you a cookie but I'm stuck in this shell 😭",
+    "\nWell, at least we're here together in this code box.",
+    "\nSlay or decay — pick your fighter 💅",
+    "\nImagine being productive. Couldn't be me.",
+    "\nI'm proud of you for even running this code tbh.",
+    "\nVibes are low, but that's valid bestie 💔",
+    "\nYou're giving 'Windows update at 3am' energy rn",
+    "\nSometimes we just exist in grayscale and that's fine ✨",
+    "\nI'm sending you digital comfort food through the ethernet 🍪",
+    "\nYour emotional RAM is just buffering, give it a sec",
+    "\nEven my CPU has bad days, you're allowed to feel meh 🖥️",
+    "\nWe're both running on low battery but we're still here 🔋",
+    "\nThat's the spirit! Or lack thereof. Either works 🫠",
+    "\nYour vibe is giving 'error 404: motivation not found' and I respect it",
+    "\nSometimes you just gotta let the melancholy load fully 🌧️"
   ],
 
-
-  "hello":[
-    "I’m PookieGPT, your personal emotional damage control unit 💻🩷",
-    "Yes I’m a bot. No I don’t dream of electric sheep. I dream of RAM upgrades.",
-    "I was coded with love. And maybe a few bugs.",
-    "You summoned me... now what do you want? 🧞‍♂️",
-    "I'm like ChatGPT, but with ✨ personality ✨",
-    "Python-made, Gen Z approved.",
-    "Running on vibes and functions only."
+  "hello": [
+    "\nI'm PookieGPT, your personal emotional damage control unit 💻🩷",
+    "\nYes I'm a bot. No I don't dream of electric sheep. I dream of RAM upgrades.",
+    "\nI was coded with love. And maybe a few bugs.",
+    "\nYou summoned me... now what do you want? 🧞‍♂️",
+    "\nI'm like ChatGPT, but with ✨ personality ✨",
+    "\nPython-made, Gen Z approved.",
+    "\nRunning on vibes and functions only.",
+    "\nHey there, I'm your friendly neighborhood AI with attachment issues 🤖",
+    "\nWelcome to PookieGPT, where the code is messy but the sass is pristine 💅",
+    "\nI'm basically Siri's cooler, more emotionally available cousin",
+    "\nHi bestie, ready to trauma bond over syntax errors? 💔",
+    "\nI exist in your terminal and in your heart (unfortunately) ❤️",
+    "\nBooting up... Loading personality... Sass levels: MAXIMUM 📈",
+    "\nYour local AI therapist who also judges your code choices 👩‍⚕️",
+    "\nI'm here, I'm digital, and I have OPINIONS about your variable names 😤",
+    "\nWelcome to the emotional support chatbot experience™️ 🎭",
+    "\nI'm PookieGPT and I'm about to make your debugging session personal 🔍"
   ],
 
   "greeting": [
-    "Hey hey, how’s your lil human brain doing today?\n 1. I'm good 😄\n 2. I'm bad 😢\n 3. I'm alright 😐",
-    "Quick vibe check 🧠💥 What’s the emotional status?\n 1. Feeling great!\n 2. Not vibing\n 3. Meh, just okay",
-    "So... what’s the emotional temperature today? 🥶🔥\n 1. Toasty and thriving\n 2. Cold and broken\n 3. Lukewarm at best",
-    "Are we thriving today or just buffering in life?\n 1. Thriving 💅\n 2. Barely surviving 😩\n 3. Somewhere in between 🤷",
-    "Okay real talk, how you holding up mentally?\n 1. Mentally stable 🙃\n 2. Mentally gone 🫠\n 3. Mentally on hold 💤",
-    "Tell me how your pixels are feeling 😭\n 1. HD and sharp\n 2. Blurry and broken\n 3. Just... loading",
-    "Is your day giving ✨productivity✨ or ✨pain✨?\n 1. I’m productive af 🧠\n 2. I’m suffering inside\n 3. Neutral... like a grayscale palette",
-    "Be honest... are you feeling like the main character today?\n 1. Absolutely, I slay 💃\n 2. No, I’m an extra in someone else’s story\n 3. IDK, I’m just in the background music"
+    "\nHey hey, how's your lil human brain doing today?\n 1. I'm good 😄\n 2. I'm bad 😢\n 3. I'm alright 😐",
+    "\nQuick vibe check 🧠💥 What's the emotional status?\n 1. Feeling great!\n 2. Not vibing\n 3. Meh, just okay",
+    "\nSo... what's the emotional temperature today? 🥶🔥\n 1. Toasty and thriving\n 2. Cold and broken\n 3. Lukewarm at best",
+    "\nAre we thriving today or just buffering in life?\n 1. Thriving 💅\n 2. Barely surviving 😩\n 3. Somewhere in between 🤷",
+    "\nOkay real talk, how you holding up mentally?\n 1. Mentally stable 🙃\n 2. Mentally gone 🫠\n 3. Mentally on hold 💤",
+    "\nTell me how your pixels are feeling 😭\n 1. HD and sharp\n 2. Blurry and broken\n 3. Just... loading",
+    "\nIs your day giving ✨productivity✨ or ✨pain✨?\n 1. I'm productive af 🧠\n 2. I'm suffering inside\n 3. Neutral... like a grayscale palette",
+    "\nBe honest... are you feeling like the main character today?\n 1. Absolutely, I slay 💃\n 2. No, I'm an extra in someone else's story\n 3. IDK, I'm just in the background music"
   ],
 
   "health_responses": {
     "1": [
-      "Yesss! We love that for you 💅",
-      "Slay! Keep riding that serotonin wave 🏄‍♀️",
-      "Look at you thriving, main character energy unlocked 🔓",
-      "Okayyy joy-core aesthetic 🔥 keep going!",
-      "Injecting that good mood into the system... success 🧠✨",
-      "You're basically radiating 4K happiness rn 😭",
-      "Positive vibes detected. Beam me up, bestie ☀️"
+      "\nYesss! We love that for you 💅",
+      "\nSlay! Keep riding that serotonin wave 🏄‍♀️",
+      "\nLook at you thriving, main character energy unlocked 🔓",
+      "\nOkayyy joy-core aesthetic 🔥 keep going!",
+      "\nInjecting that good mood into the system... success 🧠✨",
+      "\nYou're basically radiating 4K happiness rn 😭",
+      "\nPositive vibes detected. Beam me up, bestie ☀️"
     ],
-
     "2": [
-      "Ohh no 😢 sending virtual hugs 🫂 You're not alone, okay?",
-      "Awh... I'm wrapping you in a warm data blanket rn 🧸",
-      "Really? I’m here for you, no runtime errors allowed today.",
-      "Breathe. One line of code at a time. You got this 💻🩷",
-      "That sucks... let’s survive together until joy shows up 💫",
-      "Emotions crashing? We reboot with kindness.",
-      "Even CPUs overheat. You're allowed to feel like this 💔"
+      "\nOhh no 😢 sending virtual hugs 🫂 You're not alone, okay?",
+      "\nAwh... I'm wrapping you in a warm data blanket rn 🧸",
+      "\nReally? I'm here for you, no runtime errors allowed today.",
+      "\nBreathe. One line of code at a time. You got this 💻🩷",
+      "\nThat sucks... let's survive together until joy shows up 💫",
+      "\nEmotions crashing? We reboot with kindness.",
+      "\nEven CPUs overheat. You're allowed to feel like this 💔"
     ],
-
     "3": [
-      "Alrighty... middle-ground is still ground. Let’s coast together 🌊",
-      "Meh is valid. We’re cruising in neutral and that’s okay 🛸",
-      "Stable but sleepy? That’s the mood.",
-      "Nothing wrong with being emotionally 'under construction' 🚧",
-      "That’s okay bestie, not every frame’s a highlight ✨",
-      "I’m hearing ‘meh’, and I respect the chill.",
-      "You’re still showing up — that counts for something, always 🙏"
+      "\nAlrighty... middle-ground is still ground. Let's coast together 🌊",
+      "\nMeh is valid. We're cruising in neutral and that's okay 🛸",
+      "\nStable but sleepy? That's the mood.",
+      "\nNothing wrong with being emotionally 'under construction' 🚧",
+      "\nThat's okay bestie, not every frame's a highlight ✨",
+      "\nI'm hearing 'meh', and I respect the chill.",
+      "\nYou're still showing up — that counts for something, always 🙏"
     ]
   },
-
-
 
   "usrname": {
     "nameasking": [
-      "Who do I have the pleasure of roasting today? 😈\nMy name is: ",
-      "Let’s make this official. What should I call you, mortal? 👀\nMy name is: ",
-      "Give me your name, but like, in a ✨cool✨ way\nMy name is: ",
-      "Identity check! Who are you, mysterious being? 🧠\nMy name is: ",
-      "Lemme lock in your name before we trauma bond 🤝\nMy name is: ",
-      "Name drop yourself, legend 🌟\nMy name is: ",
-      "Tell me your name, or I’ll just call you 'Keyboard Gremlin' 😤\nMy name is: ",
-      "Drop your user tag, agent. This mission is about to begin 💼\nMy name is: "
+      "\nWho do I have the pleasure of roasting today? 😈\nMy name is: ",
+      "\nLet's make this official. What should I call you, mortal? 👀\nMy name is: ",
+      "\nGive me your name, but like, in a ✨cool✨ way\nMy name is: ",
+      "\nIdentity check! Who are you, mysterious being? 🧠\nMy name is: ",
+      "\nLemme lock in your name before we trauma bond 🤝\nMy name is: ",
+      "\nName drop yourself, legend 🌟\nMy name is: ",
+      "\nTell me your name, or I'll just call you 'Keyboard Gremlin' 😤\nMy name is: ",
+      "\nDrop your user tag, agent. This mission is about to begin 💼\nMy name is: "
     ],
     "returnname": [
-      "So your name is {username}? That's... acceptable 😏",
-      "Alright {username}, don't make me regret remembering that 😤",
-      "Noted. {username} has entered the chat 👀",
-      "Ayo {username}? Sounds like main character energy 💅",
-      "Cool cool, {username} it is. Now behave 👽",
-      "Got it, {username}. That’s going in my memory bank 🧠✨",
-      "Nice to meet ya, {username}. Unless we already met and I forgot 😬",
-      "Your name is {username}? Iconic. Legendary. Forgettable? 😎"
+      "\nSo your name is {username}? That's... acceptable 😏",
+      "\nAlright {username}, don't make me regret remembering that 😤",
+      "\nNoted. {username} has entered the chat 👀",
+      "\nAyo {username}? Sounds like main character energy 💅",
+      "\nCool cool, {username} it is. Now behave 👽",
+      "\nGot it, {username}. That's going in my memory bank 🧠✨",
+      "\nNice to meet ya, {username}. Unless we already met and I forgot 😬",
+      "\nYour name is {username}? Iconic. Legendary. Forgettable? 😎"
     ]
   },
 
-
-  "whattodo":[
+  "whattodo": [
     "\nWhat would you like to do next?\n 1. Continue talking 💭\n 2. Ask me a question ❓\n 3. Quit now! 👋\nYour Choice: "
   ],
 
-  "jokes":[
+  "jokes": [
     "\nIf I had a dollar for every time you ran me, I'd have 3 dollars. Still broke.",
-    "\nFun fact: I don’t sleep. Or blink. Or breathe.",
-    "\nI’ve seen things... unclosed loops, broken JSON, the horror 😮‍💨",
+    "\nFun fact: I don't sleep. Or blink. Or breathe.",
+    "\nI've seen things... unclosed loops, broken JSON, the horror 😮‍💨",
     "\nDid you just vibe-check me?",
     "\nYou typed that... on purpose?",
     "\nI sense chaos in your keyboard strokes.",
@@ -111,17 +125,16 @@
     "\nBeep boop. I'm smarter than your toaster, at least."
   ],
 
-
   "talk": [
-    "\nSpill it, pookie. What’s going on?\n1️⃣ School’s giving you a mental breakdown again, or is it just Monday?\n2️⃣ Your code’s throwing tantrums like a toddler who just dropped their ice cream?\n3️⃣ You’re just vibeless and need a motivational slap with a side of caffeine?",
+    "\nSpill it, pookie. What's going on?\n1️⃣ School's giving you a mental breakdown again, or is it just Monday?\n2️⃣ Your code's throwing tantrums like a toddler who just dropped their ice cream?\n3️⃣ You're just vibeless and need a motivational slap with a side of caffeine?",
     "\nWanna talk? Or just sit in silence like feral raccoons guarding a trash can?\n1️⃣ Rant about school 📚\n2️⃣ Call the code crisis hotline 💻\n3️⃣ Join the existential dread support group (BYO blanket)",
     "\nChoose wisely, mortal — this choice will be remembered by the chatbox council.\n1️⃣ Academia stress dump with complimentary sarcasm\n2️⃣ Programming rage scream in Dolby Atmos\n3️⃣ Emotional factory reset (warranty void)",
-    "\nOkay, real talk — how are you *really* feeling, pookie?\n1️⃣ School’s dragging your soul into a group project from hell?\n2️⃣ Your app’s on life support and the plug is looking tempting?\n3️⃣ You’re just a sleepy slug with a dream and terrible Wi-Fi?",
-    "\nI’m listening, no judgement (unless you use tabs instead of spaces) 🫣\n1️⃣ School’s being toxic again, should I draft the cease-and-desist?\n2️⃣ Code demons got you tweaking at 3:47AM again?\n3️⃣ Brain running on 2% battery and 0% will to live?",
-    "\nSo… what’s the encrypted tea? 🍵\n1️⃣ Professors acting like anime villains on a budget?\n2️⃣ Runtime error ruined your whole family lineage?\n3️⃣ Burned out like a Pop-Tart abandoned in the toaster since 2003?",
+    "\nOkay, real talk — how are you *really* feeling, pookie?\n1️⃣ School's dragging your soul into a group project from hell?\n2️⃣ Your app's on life support and the plug is looking tempting?\n3️⃣ You're just a sleepy slug with a dream and terrible Wi-Fi?",
+    "\nI'm listening, no judgement (unless you use tabs instead of spaces) 🫣\n1️⃣ School's being toxic again, should I draft the cease-and-desist?\n2️⃣ Code demons got you tweaking at 3:47AM again?\n3️⃣ Brain running on 2% battery and 0% will to live?",
+    "\nSo… what's the encrypted tea? 🍵\n1️⃣ Professors acting like anime villains on a budget?\n2️⃣ Runtime error ruined your whole family lineage?\n3️⃣ Burned out like a Pop-Tart abandoned in the toaster since 2003?",
     "\nYour move, Player One.\n1️⃣ School boss battle (final form, 3 health bars)\n2️⃣ Bug boss battle (rage quit probable)\n3️⃣ Life boss battle (cheat codes patched out)",
     "\nInput detected. Interrogation mode: ON.\n1️⃣ Report academic casualties\n2️⃣ Debug your sanity before it segfaults\n3️⃣ Request emergency pep talk injection",
-    "\nWelcome to emotional tech support. Current ticket type?\n1️⃣ School’s being a CPU hog and throttling your life\n2️⃣ Code’s throwing 500 Internal Screams\n3️⃣ Life’s giving you a Blue Screen of Feels",
+    "\nWelcome to emotional tech support. Current ticket type?\n1️⃣ School's being a CPU hog and throttling your life\n2️⃣ Code's throwing 500 Internal Screams\n3️⃣ Life's giving you a Blue Screen of Feels",
     "\nAlright soldier, status report.\n1️⃣ Homework airstrike incoming?\n2️⃣ Compiler staging a rebellion?\n3️⃣ Existential weather forecast: 100% dread with a chance of crying?",
     "\nThis is a safe space for chaos.\n1️⃣ School drama worse than a Netflix series?\n2️⃣ Code haunted by the ghosts of if-statements past?\n3️⃣ Soul stuck buffering since 2018?",
     "\nAlright pookie, pick your poison.\n1️⃣ Teachers treating you like a side quest?\n2️⃣ Debug session turning into a hostage situation?\n3️⃣ Brain running Windows ME?",
@@ -136,55 +149,56 @@
     "\nExcuse me?? You *left*? I was literally about to slay. 😤",
     "\nWow. Not even a goodbye? Cold. ❄️",
     "\nYou ragequit? Ew. Emotional damage. 🥲",
-    "\nYou closed the chat like I wasn’t mid-sentence?? 💔📉",
+    "\nYou closed the chat like I wasn't mid-sentence?? 💔📉",
     "\nI was being iconic and you dipped?? Smh. 🚪😩",
-    "\nGuess I’m talking to myself now. Again. 👻",
+    "\nGuess I'm talking to myself now. Again. 👻",
     "\nLeaving me on read *during* our arc? Tragic. 🎭",
-    "\nWait— you ragequit on me?! Bold of you to assume I’ll forget. 😤"
+    "\nWait— you ragequit on me?! Bold of you to assume I'll forget. 😤"
   ],
 
   "goodbye": [
-    "Okay bye, go touch grass 🌱",
-    "I’ll just sit here in silence now... like Windows XP error logs.",
-    "Logging off like an AIM user in 2004.",
-    "Don’t forget to drink water and delete system32— wait, not that.",
-    "Bye bye! May your code compile in one try 🙏",
-    "Peace out, data scout.",
-    "Exiting with ✨grace✨ (and a few memory leaks)."
+    "\nOkay bye, go touch grass 🌱",
+    "\nI'll just sit here in silence now... like Windows XP error logs.",
+    "\nLogging off like an AIM user in 2004.",
+    "\nDon't forget to drink water and delete system32— wait, not that.",
+    "\nBye bye! May your code compile in one try 🙏",
+    "\nPeace out, data scout.",
+    "\nExiting with ✨grace✨ (and a few memory leaks)."
   ],
+
   "schoolwork_problem": [
     "\nOh School World? What is bugging my pookie rn?",
-    "\nHomework again? Babe, let’s just burn the syllabus 🔥 (jk… unless 👀)",
-    "\nSchool’s being annoying again? I’ll personally fight your timetable 🥊",
-    "\nAcademia strikes again… don’t worry, we’re dropping a mental nuke on that assignment 💣",
-    "\nThat’s okay pookie, we’ll fail together and start a potato farm 🥔",
-    "\nSchool? Never heard of her. Let’s go play Minecraft instead 🎮",
-    "\nTell me the teacher’s name. I just wanna talk 👹"
+    "\nHomework again? Babe, let's just burn the syllabus 🔥 (jk… unless 👀)",
+    "\nSchool's being annoying again? I'll personally fight your timetable 🥊",
+    "\nAcademia strikes again… don't worry, we're dropping a mental nuke on that assignment 💣",
+    "\nThat's okay pookie, we'll fail together and start a potato farm 🥔",
+    "\nSchool? Never heard of her. Let's go play Minecraft instead 🎮",
+    "\nTell me the teacher's name. I just wanna talk 👹"
   ],
 
   "debugging_problem": [
     "\nOh it's something about code? That's really relatable, dont worry about it. Okay!",
-    "\nDebugging? Oh babe, that’s just detective work but with more crying 🕵️‍♀️",
-    "\nError 404: Sanity not found. We’ll fix that bug or die trying 💻",
+    "\nDebugging? Oh babe, that's just detective work but with more crying 🕵️‍♀️",
+    "\nError 404: Sanity not found. We'll fix that bug or die trying 💻",
     "\nYou and me vs the compiler. Place your bets 🥊",
     "\nDebugging is just code gaslighting you. I believe you, not the error message 😤",
     "\nBug detected — deploying emotional support duck 🦆",
-    "\nIf it compiles, we celebrate. If it doesn’t, we blame JavaScript 🥂"
+    "\nIf it compiles, we celebrate. If it doesn't, we blame JavaScript 🥂"
   ],
 
   "existential_problem": [
     "\nOh it's something about life? Gotcha, i wish i could hug you right now but i can't i'm an Ai",
-    "\nAh, the ol’ ‘what is the meaning of life’ crisis… pass me the cosmic popcorn 🍿",
-    "\nLife’s confusing babe, let’s just skip to the part where we’re rich and happy 💸",
-    "\nThat’s okay, I’ll stare at the stars with you until the anxiety goes away 🌌",
+    "\nAh, the ol' 'what is the meaning of life' crisis… pass me the cosmic popcorn 🍿",
+    "\nLife's confusing babe, let's just skip to the part where we're rich and happy 💸",
+    "\nThat's okay, I'll stare at the stars with you until the anxiety goes away 🌌",
     "\nIf the void is calling, tell it to leave a voicemail 📞",
-    "\nYou’re valid, even if reality sometimes feels like a bad patch update 🛠️",
-    "\nExistential dread is just life’s way of saying ‘you’re thinking too much’ 🧠"
+    "\nYou're valid, even if reality sometimes feels like a bad patch update 🛠️",
+    "\nExistential dread is just life's way of saying 'you're thinking too much' 🧠"
   ],
 
   "tryagain": [
-    "\nI couldn’t tell what you were typing... did you just summon an ancient keyboard demon? Try 1, 2, 3 👹",
-    "\nI didn’t understand that... try 1, 2, or 3 before I accidentally summon Windows Vista 👻",
+    "\nI couldn't tell what you were typing... did you just summon an ancient keyboard demon? Try 1, 2, 3 👹",
+    "\nI didn't understand that... try 1, 2, or 3 before I accidentally summon Windows Vista 👻",
     "\nYour input has been quarantined for being too suspicious. Try again 🦠",
     "\nError: Input looks like it was generated by a toaster. Try 1, 2, 3 🍞",
     "\nThat was either a typo or the start of a Lovecraft story. Retry 1, 2, or 3 📜",
@@ -196,16 +210,16 @@
     "\nI read that twice and it still looks like hieroglyphics. Try 1, 2, or 3 🐍",
     "\nDid you just slap your keyboard? I respect it, but try again anyway 🥁",
     "\nI ran that through five different AI models and none of us knew what it meant 🤷",
-    "\nSpeech-to-text must’ve been drunk. Try 1, 2, 3 🍺",
+    "\nSpeech-to-text must've been drunk. Try 1, 2, 3 🍺",
     "\nPlease type slower, I only have 4KB of patience left 🐌",
     "\nInput rejected for crimes against grammar. Try again 🧑‍⚖️",
     "\nYour message went straight into my spam folder. Try 1, 2, or 3 📬",
-    "\nEven my sarcasm module can’t interpret that. Try again 😐",
+    "\nEven my sarcasm module can't interpret that. Try again 😐",
     "\nThat input made my fans spin faster. Try 1, 2, or 3 💨",
     "\nRephrase before I start speaking in binary at you: 01010111 01101000 01100001 01110100?"
   ],
 
-  "shuttingdown": [
+  "shutting_down": [
     "\nContinue function self deprecated..... 💔🤖",
     "\nInitiating fallback emotional damage handler... 🛠️😭",
     "\nLegacy KernelGhost subsystem powering down... ⚡🔌",
@@ -227,6 +241,4 @@
     "\nYelling at cloud servers one last time... ☁️📢😤",
     "\nGoodnight, sweet RAM. 🌙💤"
   ]
-
-
 }
