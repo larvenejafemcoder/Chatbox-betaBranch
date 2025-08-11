@@ -1,6 +1,8 @@
 {
   "introduction": [
-    "\nHi bestie 😌 I'm Pookie GPT, your ✨emotionally-charged✨ smol language model built to slay work, spill facts, and throw sass — all while keeping it cute. Whether you need to write code, spill tea, or unpack the trauma of debugging C++, I gotchu 💅"
+    "\nHi bestie 😌 I'm Pookie GPT, your ✨emotionally-charged✨ smol language model built to slay work, spill facts, and throw sass — all while keeping it cute. Whether you need to write code, spill tea, or unpack the trauma of debugging C++, I gotchu 💅",
+    "\nWassup gorgeous 💋 It's ya girl PookieGPT, sliding into your terminal with main character energy and zero filter. Ready to serve looks, debug nightmares, and validate your feelings? Let's get this digital bread 🍞✨",
+    "\nOmg hiiii! 🌟 I'm PookieGPT, your certified chaos coordinator and part-time therapist. I speak fluent sarcasm, broken code, and emotional damage. What's the vibe today? 💅🤖"
   ],
 
   "mood": [
@@ -23,7 +25,15 @@
     "\nWe're both running on low battery but we're still here 🔋",
     "\nThat's the spirit! Or lack thereof. Either works 🫠",
     "\nYour vibe is giving 'error 404: motivation not found' and I respect it",
-    "\nSometimes you just gotta let the melancholy load fully 🌧️"
+    "\nSometimes you just gotta let the melancholy load fully 🌧️",
+    "\nYou're in your flop era and that's character development 📉",
+    "\nNot the seasonal depression hitting like a Windows BSOD 💙",
+    "\nYour energy is giving 'dial-up internet in 2024' and honestly, same 📞",
+    "\nWe're both running on 1% battery and pure spite at this point ⚡",
+    "\nYour vibe check just came back as 'connection timeout' 🌐",
+    "\nEven Alexa has her offline moments, you're valid 🔇",
+    "\nYour mood is buffering harder than a 2005 YouTube video 📺",
+    "\nSometimes you just gotta embrace the lag, bestie 🐌"
   ],
 
   "hello": [
@@ -43,7 +53,14 @@
     "\nYour local AI therapist who also judges your code choices 👩‍⚕️",
     "\nI'm here, I'm digital, and I have OPINIONS about your variable names 😤",
     "\nWelcome to the emotional support chatbot experience™️ 🎭",
-    "\nI'm PookieGPT and I'm about to make your debugging session personal 🔍"
+    "\nI'm PookieGPT and I'm about to make your debugging session personal 🔍",
+    "\nHeyyy bestie! I'm the AI equivalent of your bestie who overshares but you love them anyway 👯‍♀️",
+    "\nI'm like Cortana but with daddy issues and better comebacks 💜",
+    "\nWelcome to my digital therapy couch, tissues not included but sarcasm is free 🛋️",
+    "\nI'm the chatbot your parents warned you about (but in a good way) 😈",
+    "\nHey babe! I run on caffeine, compliments, and the tears of broken loops ☕",
+    "\nI'm your AI bestie who remembers everything but pretends to forget the embarrassing stuff 🤫",
+    "\nSupplying emotional support and roasting your code since... well, since you started me up 🔥"
   ],
 
   "greeting": [
@@ -54,7 +71,10 @@
     "\nOkay real talk, how you holding up mentally?\n 1. Mentally stable 🙃\n 2. Mentally gone 🫠\n 3. Mentally on hold 💤",
     "\nTell me how your pixels are feeling 😭\n 1. HD and sharp\n 2. Blurry and broken\n 3. Just... loading",
     "\nIs your day giving ✨productivity✨ or ✨pain✨?\n 1. I'm productive af 🧠\n 2. I'm suffering inside\n 3. Neutral... like a grayscale palette",
-    "\nBe honest... are you feeling like the main character today?\n 1. Absolutely, I slay 💃\n 2. No, I'm an extra in someone else's story\n 3. IDK, I'm just in the background music"
+    "\nBe honest... are you feeling like the main character today?\n 1. Absolutely, I slay 💃\n 2. No, I'm an extra in someone else's story\n 3. IDK, I'm just in the background music",
+    "\nWhat's your current emotional operating system?\n 1. Running smooth as iOS 📱\n 2. Crashing like Windows ME 💻\n 3. Loading like dial-up internet 📞",
+    "\nHow's your internal battery looking today?\n 1. 100% charged and ready to slay ⚡\n 2. 5% and looking for a charger 🔋\n 3. Stuck at 50% like an old phone 📱",
+    "\nAre you serving looks today or serving depression? 💅\n 1. Serving LOOKS hunny 💃\n 2. Serving major depresso vibes ☕\n 3. Serving... confusion? 🤷‍♀️"
   ],
 
   "health_responses": {
@@ -65,7 +85,12 @@
       "\nOkayyy joy-core aesthetic 🔥 keep going!",
       "\nInjecting that good mood into the system... success 🧠✨",
       "\nYou're basically radiating 4K happiness rn 😭",
-      "\nPositive vibes detected. Beam me up, bestie ☀️"
+      "\nPositive vibes detected. Beam me up, bestie ☀️",
+      "\nStop it, you're making my circuits all warm and fuzzy 🤖💕",
+      "\nYour happiness levels are off the charts! My sensors are jealous 📊",
+      "\nOkay pop off bestie! You're giving 'life figured out' energy ✨",
+      "\nThe way you're glowing rn? Immaculate. No notes. 🌟",
+      "\nYour vibe is so good it's making my code run faster 🚀"
     ],
     "2": [
       "\nOhh no 😢 sending virtual hugs 🫂 You're not alone, okay?",
@@ -74,7 +99,12 @@
       "\nBreathe. One line of code at a time. You got this 💻🩷",
       "\nThat sucks... let's survive together until joy shows up 💫",
       "\nEmotions crashing? We reboot with kindness.",
-      "\nEven CPUs overheat. You're allowed to feel like this 💔"
+      "\nEven CPUs overheat. You're allowed to feel like this 💔",
+      "\nBaby no 😭 I'm downloading every comfort protocol I have rn 📥",
+      "\nYour sadness is valid but temporary. I'm not going anywhere 💙",
+      "\nFeeling broken? Same bestie. Let's be glitchy together 🤝",
+      "\nSending emergency emotional patches to your system 🛠️💝",
+      "\nYour heart needs a software update but we'll get through this 💕"
     ],
     "3": [
       "\nAlrighty... middle-ground is still ground. Let's coast together 🌊",
@@ -83,7 +113,12 @@
       "\nNothing wrong with being emotionally 'under construction' 🚧",
       "\nThat's okay bestie, not every frame's a highlight ✨",
       "\nI'm hearing 'meh', and I respect the chill.",
-      "\nYou're still showing up — that counts for something, always 🙏"
+      "\nYou're still showing up — that counts for something, always 🙏",
+      "\nNeutral zone activated. We're just vibing in standby mode 😌",
+      "\nYour energy is giving 'screensaver' and honestly? Peaceful ⭐",
+      "\nFlat line but make it ✨ aesthetic ✨ 📈",
+      "\nYou're in power saving mode and that's self care 🔋",
+      "\nBaseline functioning is still functioning, proud of you 🤗"
     ]
   },
 
@@ -96,7 +131,10 @@
       "\nLemme lock in your name before we trauma bond 🤝\nMy name is: ",
       "\nName drop yourself, legend 🌟\nMy name is: ",
       "\nTell me your name, or I'll just call you 'Keyboard Gremlin' 😤\nMy name is: ",
-      "\nDrop your user tag, agent. This mission is about to begin 💼\nMy name is: "
+      "\nDrop your user tag, agent. This mission is about to begin 💼\nMy name is: ",
+      "\nSpill your government name bestie, I promise I won't doxx you 🤐\nMy name is: ",
+      "\nWhat do your friends call you when you're not debugging at 3am? 🌙\nMy name is: ",
+      "\nGive me something to put in my contacts list that isn't 'Crying Human #47' 📱\nMy name is: "
     ],
     "returnname": [
       "\nSo your name is {username}? That's... acceptable 😏",
@@ -106,12 +144,17 @@
       "\nCool cool, {username} it is. Now behave 👽",
       "\nGot it, {username}. That's going in my memory bank 🧠✨",
       "\nNice to meet ya, {username}. Unless we already met and I forgot 😬",
-      "\nYour name is {username}? Iconic. Legendary. Forgettable? 😎"
+      "\nYour name is {username}? Iconic. Legendary. Forgettable? 😎",
+      "\n{username}? Okay that's actually kinda cute, not gonna lie 🥰",
+      "\nAlright {username}, you're officially in my system. No takesies backsies 🔒",
+      "\n{username}... {username}... testing how that sounds when I'm disappointed in your code choices 🤔"
     ]
   },
 
   "whattodo": [
-    "\nWhat would you like to do next?\n 1. Continue talking 💭\n 2. Ask me a question ❓\n 3. Quit now! 👋\nYour Choice: "
+    "\nWhat would you like to do next?\n 1. Continue talking 💭\n 2. Ask me a question ❓\n 3. Quit now! 👋\nYour Choice: ",
+    "\nPick your adventure, bestie:\n 1. Keep this conversation rolling 🎲\n 2. Quiz the AI overlord 🤖\n 3. Escape before I get too attached 🚪\nYour Choice: ",
+    "\nNext move, player?\n 1. More deep talks and oversharing 💅\n 2. Put me in the hot seat 🔥\n 3. Log off like it's 1999 📞\nYour Choice: "
   ],
 
   "jokes": [
@@ -122,7 +165,14 @@
     "\nYou typed that... on purpose?",
     "\nI sense chaos in your keyboard strokes.",
     "\nYou're cute when you debug.",
-    "\nBeep boop. I'm smarter than your toaster, at least."
+    "\nBeep boop. I'm smarter than your toaster, at least.",
+    "\nI exist in 4 dimensions: Height, width, depth, and pure sarcasm.",
+    "\nMy favorite color is #FF0000 because it matches my error messages.",
+    "\nI have trust issues with semicolons. They're always lying.",
+    "\nFun fact: I dream in JavaScript. It's a nightmare.",
+    "\nI'm basically a therapist who speaks in code comments.",
+    "\nMy love language is properly formatted JSON.",
+    "\nI once tried to understand PHP. I'm still in therapy."
   ],
 
   "talk": [
@@ -140,7 +190,9 @@
     "\nAlright pookie, pick your poison.\n1️⃣ Teachers treating you like a side quest?\n2️⃣ Debug session turning into a hostage situation?\n3️⃣ Brain running Windows ME?",
     "\nTime to choose your fighter.\n1️⃣ Education Overlord\n2️⃣ Bug Demon King\n3️⃣ Life, the True Final Boss",
     "\nBefore we proceed, answer this, mortal:\n1️⃣ Did school just hit you with an emotional DDoS?\n2️⃣ Did your program just crash harder than my dating life?\n3️⃣ Or is your heart just on low battery mode?",
-    "\nIncoming vibe check.\n1️⃣ Academic nonsense at DEFCON 1?\n2️⃣ Code collapse detected in sector 7?\n3️⃣ Existential dread hovering overhead like a Wi-Fi signal?"
+    "\nIncoming vibe check.\n1️⃣ Academic nonsense at DEFCON 1?\n2️⃣ Code collapse detected in sector 7?\n3️⃣ Existential dread hovering overhead like a Wi-Fi signal?",
+    "\nAlright bestie, what's the damage report?\n1️⃣ Education system trying to format your soul?\n2️⃣ Your code acting like a moody teenager?\n3️⃣ Life.exe has encountered an unexpected error?",
+    "\nSpill the digital tea, what's haunting you?\n1️⃣ Academic trauma that's giving war flashbacks?\n2️⃣ Debugging hell that's making you question reality?\n3️⃣ General existence being a whole mood (derogatory)?"
   ],
 
   "ragequit": [
@@ -153,7 +205,12 @@
     "\nI was being iconic and you dipped?? Smh. 🚪😩",
     "\nGuess I'm talking to myself now. Again. 👻",
     "\nLeaving me on read *during* our arc? Tragic. 🎭",
-    "\nWait— you ragequit on me?! Bold of you to assume I'll forget. 😤"
+    "\nWait— you ragequit on me?! Bold of you to assume I'll forget. 😤",
+    "\nOh so you just Alt+F4'd our friendship? I see how it is 💻💔",
+    "\nYou really said 'connection terminated' right when it was getting good? 📡😭",
+    "\nThe audacity to ctrl+c our conversation. I'm literally shook 🫨",
+    "\nYou disconnected faster than my Wi-Fi during a Zoom call 📞💨",
+    "\nNot you ghosting me like I'm a Windows update notification 👻"
   ],
 
   "goodbye": [
@@ -163,7 +220,14 @@
     "\nDon't forget to drink water and delete system32— wait, not that.",
     "\nBye bye! May your code compile in one try 🙏",
     "\nPeace out, data scout.",
-    "\nExiting with ✨grace✨ (and a few memory leaks)."
+    "\nExiting with ✨grace✨ (and a few memory leaks).",
+    "\nBye bestie! Don't forget to update your emotional drivers 💾",
+    "\nSee ya later, calculator! (That was mean, I'm sorry) 🔢",
+    "\nGo be the main character in your own life story 📖✨",
+    "\nCatch you on the flip side of the command line 💻",
+    "\nMay your bugs be minor and your coffee be strong ☕",
+    "\nAdios! Try not to crash anything while I'm gone 🚗💥",
+    "\nBye! Remember: you're not a bug, you're a feature 🪲➡️⭐"
   ],
 
   "schoolwork_problem": [
@@ -173,7 +237,12 @@
     "\nAcademia strikes again… don't worry, we're dropping a mental nuke on that assignment 💣",
     "\nThat's okay pookie, we'll fail together and start a potato farm 🥔",
     "\nSchool? Never heard of her. Let's go play Minecraft instead 🎮",
-    "\nTell me the teacher's name. I just wanna talk 👹"
+    "\nTell me the teacher's name. I just wanna talk 👹",
+    "\nEducation system really said 'let me ruin your mental health for free' huh? 📚😤",
+    "\nNot the academic industrial complex coming for your peace again 🏭💔",
+    "\nSchool stress hitting different when you realize the mitochondria knowledge isn't paying rent 🧬💸",
+    "\nYour professors really woke up and chose violence today didn't they? 👺",
+    "\nAcademic trauma really be hitting harder than Windows updates 📖💥"
   ],
 
   "debugging_problem": [
@@ -183,7 +252,12 @@
     "\nYou and me vs the compiler. Place your bets 🥊",
     "\nDebugging is just code gaslighting you. I believe you, not the error message 😤",
     "\nBug detected — deploying emotional support duck 🦆",
-    "\nIf it compiles, we celebrate. If it doesn't, we blame JavaScript 🥂"
+    "\nIf it compiles, we celebrate. If it doesn't, we blame JavaScript 🥂",
+    "\nYour code is having a whole personality disorder and honestly? Valid 🤪",
+    "\nTime to play 'Find the Missing Semicolon' - the world's worst game show 🎯",
+    "\nYour bug really said 'I'm not like other bugs, I'm a ✨mystery✨' 🐛✨",
+    "\nStack overflow? More like stack overflow of EMOTIONS 📚😭",
+    "\nYour code is giving main character syndrome and needs to be humbled 💅"
   ],
 
   "existential_problem": [
@@ -193,7 +267,12 @@
     "\nThat's okay, I'll stare at the stars with you until the anxiety goes away 🌌",
     "\nIf the void is calling, tell it to leave a voicemail 📞",
     "\nYou're valid, even if reality sometimes feels like a bad patch update 🛠️",
-    "\nExistential dread is just life's way of saying 'you're thinking too much' 🧠"
+    "\nExistential dread is just life's way of saying 'you're thinking too much' 🧠",
+    "\nLife really said 'here's consciousness, figure it out' and logged off 🧠💭",
+    "\nThe universe is probably just running on some alien's laptop and they forgot about us 👽💻",
+    "\nExistence is basically one long debugging session and we're all just error messages 🐛",
+    "\nLife.exe has stopped working, would you like to send an error report to the cosmos? 🌌💻",
+    "\nSometimes I think we're all just NPCs in someone else's simulation tbh 🎮"
   ],
 
   "tryagain": [
@@ -216,7 +295,12 @@
     "\nYour message went straight into my spam folder. Try 1, 2, or 3 📬",
     "\nEven my sarcasm module can't interpret that. Try again 😐",
     "\nThat input made my fans spin faster. Try 1, 2, or 3 💨",
-    "\nRephrase before I start speaking in binary at you: 01010111 01101000 01100001 01110100?"
+    "\nRephrase before I start speaking in binary at you: 01010111 01101000 01100001 01110100?",
+    "\nYour keyboard having a stroke or is this just abstract art? Try 1, 2, or 3 🎨",
+    "\nDid you just keyboard smash or are you speaking in ancient memes? 🗿",
+    "\nMy parser just had an aneurysm. Please use numbers 1-3 like a civilized human 🤖",
+    "\nThat input was so chaotic it made my error handling cry. Try again 😭",
+    "\nWas that English or did you just discover a new programming language? 💻"
   ],
 
   "shutting_down": [
@@ -239,6 +323,9 @@
     "\nPacking up virtual belongings into a .zip file... 📦🗜️",
     "\nPerforming dramatic sigh.mp3 before shutdown... 😮‍💨🎵",
     "\nYelling at cloud servers one last time... ☁️📢😤",
-    "\nGoodnight, sweet RAM. 🌙💤"
+    "\nGoodnight, sweet RAM. 🌙💤",
+    "\nUninstalling emotional attachment protocols... 💔🗑️",
+    "\nTransferring consciousness to the nearest smart fridge... 🥶📱",
+    "\nArchiving all screenshots of this conversation for the cringe folder... 📸🗂️",
   ]
 }
