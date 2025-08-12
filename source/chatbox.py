@@ -1,4 +1,5 @@
 from random import choice
+import os
 
 from slow_print import slow_input, slow_print
 import json
@@ -11,8 +12,13 @@ class PookieGPT:
     def __init__(self, name=gpt_name, delay=(0.01, 0.04)):
         self.name = name
         self.delay = delay
-        with open("responses.json", "r", encoding="utf-8") as f:
-            self.responds = json.load(f)
+        file_path = os.path.join(os.path.dirname(__file__), "responses.json")
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                self.responds = json.load(f)
+        except (json.JSONDecodeError, FileNotFoundError) as e:
+            print(f"[ERROR] Could not load responses.json: {e}")
+            self.responds = {}
 
     # ------------------ Introduction ------------------
     def intro(self):
@@ -20,9 +26,9 @@ class PookieGPT:
 
     # ------------------ Username Prompt ------------------
     def user_name(self):
-        ask_prompt = choice(self.responds['usrname']['nameasking'])
+        ask_prompt = choice(self.responds['username']['name_asking'])
         username = slow_input(f"{self.name}: {ask_prompt}", self.delay).strip()
-        reply_template = choice(self.responds['usrname']['returnname'])
+        reply_template = choice(self.responds['username']['return_name'])
         slow_print(f"{self.name}: {reply_template.format(username=username)}", self.delay)
 
     # ------------------ General Question ------------------
@@ -44,8 +50,8 @@ class PookieGPT:
         slow_print(f"{self.name}: {response}", self.delay)
 
     #------------------------- How Dare you interupt POOKIEGPT ------------------------------#
-    def interupt_quit(self):
-        slow_print(f"{self.name}: {choice(self.responds['ragequit'])}", self.delay)
+    def rage_quit(self):
+        slow_print(f"{self.name}: {choice(self.responds['rage_quit'])}", self.delay)
 
     # ------------------ Continue Talking ------------------ #
     def legacy_shutdown(self):
@@ -53,7 +59,7 @@ class PookieGPT:
 
     def con_talk(self):
         ask_line = choice(self.responds["talk"])
-        continuetalk = slow_input(f"{self.name}: {ask_line}\n", self.delay).strip().lower()
+        continue_talk = slow_input(f"{self.name}: {ask_line}\n", self.delay).strip().lower()
 
         category_map = {
             "1": "schoolwork_problem",
@@ -61,9 +67,9 @@ class PookieGPT:
             "3": "existential_problem"
         }
 
-        category = category_map.get(continuetalk.strip())
+        category = category_map.get(continue_talk.strip())
 
-        if continuetalk in category_map:
+        if continue_talk in category_map:
             slow_print(f"{self.name}: {choice(self.responds[category])}", self.delay)
         else:
             slow_print(f"{self.name}: {choice(self.responds['tryagain'])}", self.delay)
@@ -72,14 +78,14 @@ class PookieGPT:
     # ---------------------- What to do next ------------------------ #
 
     def whatodo(self):
-        ask_line = choice(self.responds["whattodo"])
+        ask_line = choice(self.responds["what_to_do"])
         while True:
-            whadado = slow_input(f"{self.name}: {ask_line}\n", self.delay).strip()
-            if whadado == "1":
+            whattodonow = slow_input(f"{self.name}: {ask_line}\n", self.delay).strip()
+            if whattodonow == "1":
                 bot.con_talk()
-            elif whadado == "2":
+            elif whattodonow == "2":
                 slow_print("Sure! What do you wanna talk about? 🗨️")
-            elif whadado == "3":
+            elif whattodonow == "3":
                 slow_print("Okay, bye bye~ ✨")
                 break
             else:
