@@ -25,3 +25,5 @@ pychatbox/
 ##### Make some ascii art in python_ChatBox
 ##### Refactor Similar Functions
 ##### Make PookieGPT ask more question
+##### Make ranks and rank assessment for chatpookie 
+###### 5 given ranks now : Private, Coporal, Sergant,Officer , Commander/Commandette
