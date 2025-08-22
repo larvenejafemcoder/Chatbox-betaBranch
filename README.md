@@ -22,6 +22,13 @@ pychatbox/
 ```
 
 ### Ideas: 
+todo right now :
+  1.Make a documentation (lore essentially) to make PookieGPT more understandable in the future
+  2.Make the code more readable for future reference!
+  3.Port everything into core!
+  4. .....tobe continued!
+
+
 ##### Make some ascii art in python_ChatBox
 ##### Refactor Similar Functions
 ##### Make PookieGPT ask more question
