@@ -4,15 +4,17 @@ import time
 
 
 def main():
-    bot = PookieGPT()
+    bot = PookieGPT()   # make a chatbot instance
 
-    bot.introduction() #Introduce thyself
-    bot.user_name()      # Ask for name
-    bot.general_quest()  # Mood check
-    bot.whatodo()
-    print("The Programme is running")
-    while True:
-        time.sleep(1)
+    bot.introduction()  # bot says hello
+    bot.user_name()     # bot asks your name
+    bot.general_quest() # bot checks your mood
+    bot.whatodo()       # bot asks what you wanna do next   
+
+    while True:         # endless loop
+        time.sleep(1)   # but it just sleeps, doesn’t do anything
+        
+
 
 
 
@@ -21,3 +23,5 @@ if __name__ == '__main__':
         main()
     except KeyboardInterrupt:
         PookieGPT().rage_quit()
+
+

@@ -40,23 +40,27 @@ class PookieGPT:
 
     # ------------------ General Question ------------------ #
     def general_quest(self):
-        # Start conversation with a greeting from JSON
-        prompt = choice(self.responds["greeting"])
-        mood = slow_input(f"{self.name}: {prompt}\nYour Choice: ", self.delay).strip().lower()
+        # Ask how user is feeling
+        mood = slow_input(f"{self.name}: {choice(self.responds['greeting'])}\nYour Choice: ", self.delay).strip()
 
-        # Check mood choice and pick response from JSON categories
-        if mood == "1":
-            response = choice(self.responds["health_responses"]["1"])
-        elif mood == "2":
-            response = choice(self.responds["health_responses"]["2"])
-        elif mood == "3":
-            response = choice(self.responds["health_responses"]["3"])
-        elif "sad" in mood or "bad" in mood:
-            response = choice(self.responds["health_responses"]["2"])
+        # Map moods to response categories
+        mood_map = {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+        }
+        # Handle numeric moods or keywords
+        key = mood_map.get(mood)
+        if not key and ("sad" in mood or "bad" in mood):
+            key = "2"
+
+        # Pick response
+        if key:
+            response = choice(self.responds["health_responses"][key])
         else:
-            response = "I couldn't tell how you're feeling, but I'm here anyway."
-
+            response = "I couldn't tell how you're feeling, but I'm here anyway. 🌸"
         slow_print(f"{self.name}: {response}", self.delay)
+
 
     # ------------------ RAGE QUIT MODE ------------------ #
     def rage_quit(self):
@@ -69,7 +73,7 @@ class PookieGPT:
     # ------------------ Continue Talking ------------------ #
     def con_talk(self):
         ask_line = choice(self.responds["talk"])
-        continue_talk = slow_input(f"{self.name}: {ask_line}\n", self.delay).strip().lower()
+        continue_talk = slow_input(f"{self.name}: {ask_line}\n", self.delay).strip()
 
         # Maps menu choice numbers to JSON categories
         category_map = {
@@ -88,7 +92,34 @@ class PookieGPT:
             slow_print(f"{self.name}: {choice(self.responds['tryagain'])}", self.delay)
             self.legacy_shutdown()  # Dramatic exit
 
-    # ------------------ What to do next ------------------ #
+
+    def askmeQuestion(self):
+        user_q = slow_input(f"{self.name}: {choice(self.responds['askPookie'])}", self.delay).strip()
+
+        # Simple mapping for demonstration
+        question_map = {
+            "1": "whatimfor",
+            "2": "schoolwork_problem",
+            "3": "debugging_problem",
+            "4": "debugging_problem",
+            "5": "existential_problem",
+            "6": "existential_problem"
+        }
+
+        matched_category = None
+        for keyword, category in question_map.items():
+            if keyword in user_q:
+                matched_category = category
+                break
+
+        if matched_category == question_map["1"]:
+            slow_print(f"{self.name}: {choice(self.responds['whatimfor'])}")
+        else:
+            slow_print(f"{self.name}: {choice(self.responds['tryagain'])}")
+        
+
+
+        # ------------------ What to do next ------------------ #
     def whatodo(self):
         ask_line = choice(self.responds["what_to_do"])
         while True:
@@ -96,9 +127,9 @@ class PookieGPT:
             if whattodonow == "1":
                 bot.con_talk()  # Continue talking
             elif whattodonow == "2":
-                slow_print("Sure! What do you wanna talk about? 🗨️")
+                bot.askmeQuestion() #slow_print("Sure! What do you wanna ask me about? 🗨️")
             elif whattodonow == "3":
-                slow_print("Okay, bye bye~ ✨")  # Graceful exit
+                slow_print(f"{self.name}: {choice(self.responds['goodbye'])}", self.delay)  # Graceful exit
                 break
             else:
                 break
