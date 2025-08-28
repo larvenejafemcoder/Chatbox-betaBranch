@@ -75,3 +75,34 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
     # slow_print("\nCurrent users file content:")             # Header for dumping users
     # slow_print(RankingSystem.load_users())                  # Print the whole JSON dict as a Python object (stringified)
     # slow_print(RankingSystem.load_users())                  # Print it again (duplicate output on purpose)
+
+    @staticmethod
+    def registeringUserRank(): # made this since there is no way of inputing user on the terminal 
+        rank = RankingSystem() #replace RankingSystem() with rank placeholder
+        rank.load_ranks() #proceeds to read the json input of ranksystem.json 
+
+        user_rank = slow_input("Register your username for rankingsytem: ") #ask for user_ranking_registration
+
+        # Then ask for password
+        user_password = slow_input("What password do you want to set? ") # then proceeds to ask for password also
+
+        # Register password with rank
+        
+        registered = rank.register(user_rank, user_password) #same for load_ranks() but inject the inputs back to the file
+        return registered #successfully injected 
+
+    @staticmethod
+    def loggingInToUserRank(): # the same for registering but for loggin in 
+        rank = RankingSystem() #also the same 
+        rank.load_ranks()
+
+        user_name = slow_input("Hello, welcome back: ")
+
+        #Then also ask for password
+
+        user_password = slow_input("Hello {user_name}, please enter your password: ")
+
+        loggin_in = rank.login(user_name, user_password) #instead of injecting we take what is available in ranksystem.json and loggin for user 
+        return loggin_in 
+
+
