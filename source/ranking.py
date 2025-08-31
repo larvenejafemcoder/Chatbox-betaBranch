@@ -3,8 +3,8 @@ from slow_print import *         # Imports your custom slow_print() (prints text
 import hashlib                   # For hashing passwords (SHA-256 below)
 
 class RankingSystem:             # Namespaced container for all your ranking/auth helpers
-    USERS_FILE = "ranksystem.json"  # File path used for *users* storage (⚠ currently same as ranks file)
-    RANKS_FILE = "ranksystem.json"  # File path used for *rank thresholds* (⚠ same file as above)
+    USERS_FILE = "users.json"  # File path used for *users* storage (⚠ currently same as ranks file)
+    RANKS_FILE = "ranksystem_static.json"  # File path used for *rank thresholds* (⚠ same file as above)
 
     @staticmethod
     def hash_password(password):    # Utility: convert plain text password -> SHA-256 hex digest
@@ -29,7 +29,7 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
     def load_ranks():               # Load rank thresholds from RANKS_FILE
         try:
             with open(RankingSystem.RANKS_FILE, "r") as f:  # Open the same JSON file (⚠ same file as users)
-                return json.load(f)["RANKS"]                # Return value under "RANKS" key (⚠ KeyError if missing)
+                return json.load(f)                # Return value under "RANKS" key (⚠ KeyError if missing)
         except FileNotFoundError:                           # If file not found…
             return []                                       # …return empty list of ranks
 
