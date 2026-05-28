@@ -1,0 +1,10 @@
+{
+    "name": "TestCadet",
+    "age": "18",
+    "study": "CompSci",
+    "goal": "Build embedded systems",
+    "rank": "Fresh Cadet",
+    "xp": 73,
+    "stress": 1,
+    "messages": 8
+}

@@ -1,28 +1,49 @@
 #!/usr/bin/env python3
 
-from chatbox import *
+from chatbox import ascii_box, PookieGPT, RankingSystem, slow_print
+import krnl_system
 import unittest
 import eliza
-import time 
+import time
 
-def main():
-    # login once
+
+def boot_menu():
+    print()
+    print(ascii_box(
+        "[ KRNL BOOT SELECTOR ]",
+        "Choose your system:\n\n"
+        "1. PookieGPT — Emotional support chatbot\n"
+        "2. KRNL      — Tactical cadet simulator\n"
+        "3. Quit"
+    ))
+    return input("> ").strip()
+
+
+def run_pookie():
     login_ok, username = RankingSystem.userInitLogin()
-
     time.sleep(1)
     bot = PookieGPT()
-
     bot.introduction(username)
     bot.general_quest()
     bot.whatodo()
 
+
+def run_krnl():
+    krnl_system.main()
+
+
 if __name__ == '__main__':
     try:
-        main()
+        choice = boot_menu()
+        if choice == "1":
+            run_pookie()
+        elif choice == "2":
+            run_krnl()
+        else:
+            print(ascii_box("[ SYSTEM ]", "Boot cancelled. Powering down."))
         unittest.main()
     except KeyboardInterrupt:
         PookieGPT().rage_quit()
-
 
 
 class ElizaTest(unittest.TestCase):
@@ -167,4 +188,3 @@ class ElizaTest(unittest.TestCase):
             'How do you do. Please state your problem.',
             'Hi. What seems to be your problem ?'])
         self.assertEqual(el.final(), 'Goodbye.  Thank you for talking to me.')
-
