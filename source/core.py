@@ -32,20 +32,6 @@ def run_krnl():
     krnl_system.main()
 
 
-if __name__ == '__main__':
-    try:
-        choice = boot_menu()
-        if choice == "1":
-            run_pookie()
-        elif choice == "2":
-            run_krnl()
-        else:
-            print(ascii_box("[ SYSTEM ]", "Boot cancelled. Powering down."))
-        unittest.main()
-    except KeyboardInterrupt:
-        PookieGPT().rage_quit()
-
-
 class ElizaTest(unittest.TestCase):
     def test_decomp_1(self):
         el = eliza.Eliza()
@@ -188,3 +174,20 @@ class ElizaTest(unittest.TestCase):
             'How do you do. Please state your problem.',
             'Hi. What seems to be your problem ?'])
         self.assertEqual(el.final(), 'Goodbye.  Thank you for talking to me.')
+
+
+if __name__ == '__main__':
+    try:
+        choice = boot_menu()
+        if choice == "1":
+            run_pookie()
+        elif choice == "2":
+            run_krnl()
+        else:
+            print(ascii_box("[ SYSTEM ]", "Boot cancelled. Powering down."))
+
+        loader = unittest.TestLoader()
+        suite = loader.loadTestsFromTestCase(ElizaTest)
+        unittest.TextTestRunner(verbosity=2).run(suite)
+    except KeyboardInterrupt:
+        PookieGPT().rage_quit()

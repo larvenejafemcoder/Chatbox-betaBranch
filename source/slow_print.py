@@ -15,7 +15,7 @@ def slow_print(text, delay_range=(0.01, 0.06)):
     print()                                       # After finishing, print a newline
 
 # ------------------ Slow Input Function ------------------ #
-def slow_input(prompt, delay_range=(0.01, 0.06)):
+def slow_input(prompt, delay_range=(0.01, 0.04)):
     """
     Displays a prompt slowly (like typing), then waits for user input.
     delay_range: tuple(min_delay, max_delay) in seconds.

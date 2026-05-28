@@ -1,10 +1,11 @@
 import json
 import os
-import textwrap
 from datetime import datetime
 from chatbox import ascii_box
+from slow_print import slow_print, slow_input
 
 BOX_WIDTH = 60
+DELAY = (0.01, 0.04)
 USER_FILE = "user.json"
 MEMORY_FILE = "memory.json"
 
@@ -21,16 +22,21 @@ def load_json(path):
         return json.load(f)
 
 
+def _boxed_out(title, text):
+    slow_print(ascii_box(title, text, width=BOX_WIDTH), DELAY)
+
+
+def _boxed_in(title, prompt_text):
+    slow_print(ascii_box(title, prompt_text, width=BOX_WIDTH), DELAY)
+    return input("> ").strip()
+
+
 def create_user():
-    print(ascii_box(
-        "[ SYSTEM ]",
-        "No cadet profile detected.\nInitiating registration.",
-        width=BOX_WIDTH
-    ))
-    name = input("Name: ")
-    age = input("Age: ")
-    study = input("Study Field: ")
-    goal = input("Main Goal: ")
+    _boxed_out("[ SYSTEM ]", "No cadet profile detected.\nInitiating registration.")
+    name = input("Name: ").strip()
+    age = input("Age: ").strip()
+    study = input("Study Field: ").strip()
+    goal = input("Main Goal: ").strip()
 
     user = {
         "name": name,
@@ -86,7 +92,7 @@ def status_panel(user):
         f"FIELD : {user['study']}\n"
         f"GOAL  : {user['goal']}"
     )
-    print(ascii_box("[ CADET STATUS ]", content, width=BOX_WIDTH))
+    _boxed_out("[ CADET STATUS ]", content)
 
 
 def ai_response(user, memory, msg):
@@ -165,26 +171,21 @@ def main():
     memory = load_memory()
 
     print()
-    print(ascii_box(
+    _boxed_out(
         "[ KRNL COMMAND SYSTEM ]",
-        f"Welcome back, {user['name']}.\nRank: {user['rank']}",
-        width=BOX_WIDTH
-    ))
+        f"Welcome back, {user['name']}.\nRank: {user['rank']}"
+    )
     print()
     status_panel(user)
 
     while True:
         print()
-        user_input = input("YOU > ")
+        user_input = _boxed_in("[ INPUT ]", "Awaiting directive, Cadet.")
 
         if user_input.lower() in ["exit", "quit"]:
             save_json(USER_FILE, user)
             print()
-            print(ascii_box(
-                "[ SYSTEM ]",
-                "Session terminated.\nProgress saved successfully.",
-                width=BOX_WIDTH
-            ))
+            _boxed_out("[ SYSTEM ]", "Session terminated.\nProgress saved successfully.")
             break
 
         response = ai_response(user, memory, user_input)
@@ -199,4 +200,4 @@ def main():
         save_json(MEMORY_FILE, memory)
 
         print()
-        print(ascii_box("[ AI RESPONSE ]", response, width=BOX_WIDTH))
+        _boxed_out("[ AI RESPONSE ]", response)
