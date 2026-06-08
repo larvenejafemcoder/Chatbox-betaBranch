@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
-from chatbox import ascii_box, PookieGPT, RankingSystem, slow_print
+from chatbox import ascii_box, PookieGPT, Eliza, RankingSystem, slow_print
 import krnl_system
 import unittest
-import eliza
 import time
 
 
@@ -34,36 +33,36 @@ def run_krnl():
 
 class ElizaTest(unittest.TestCase):
     def test_decomp_1(self):
-        el = eliza.Eliza()
+        el = Eliza()
         self.assertEqual([], el._match_decomp(['a'], ['a']))
         self.assertEqual([], el._match_decomp(['a', 'b'], ['a', 'b']))
 
     def test_decomp_2(self):
-        el = eliza.Eliza()
+        el = Eliza()
         self.assertIsNone(el._match_decomp(['a'], ['b']))
         self.assertIsNone(el._match_decomp(['a'], ['a', 'b']))
         self.assertIsNone(el._match_decomp(['a', 'b'], ['a']))
         self.assertIsNone(el._match_decomp(['a', 'b'], ['b', 'a']))
 
     def test_decomp_3(self):
-        el = eliza.Eliza()
+        el = Eliza()
         self.assertEqual([['a']], el._match_decomp(['*'], ['a']))
         self.assertEqual([['a', 'b']], el._match_decomp(['*'], ['a', 'b']))
         self.assertEqual([['a', 'b', 'c']],
                          el._match_decomp(['*'], ['a', 'b', 'c']))
 
     def test_decomp_4(self):
-        el = eliza.Eliza()
+        el = Eliza()
         self.assertEqual([], el._match_decomp([], []))
         self.assertEqual([[]], el._match_decomp(['*'], []))
 
     def test_decomp_5(self):
-        el = eliza.Eliza()
+        el = Eliza()
         self.assertIsNone(el._match_decomp(['a'], []))
         self.assertIsNone(el._match_decomp([], ['a']))
 
     def test_decomp_6(self):
-        el = eliza.Eliza()
+        el = Eliza()
         self.assertEqual([['0']], el._match_decomp(['*', 'a'], ['0', 'a']))
         self.assertEqual([['0', 'a']],
                          el._match_decomp(['*', 'a'], ['0', 'a', 'a']))
@@ -73,17 +72,17 @@ class ElizaTest(unittest.TestCase):
                          el._match_decomp(['*', 'a'], ['0', '1', 'a']))
 
     def test_decomp_7(self):
-        el = eliza.Eliza()
+        el = Eliza()
         self.assertEqual([[]], el._match_decomp(['*', 'a'], ['a']))
 
     def test_decomp_8(self):
-        el = eliza.Eliza()
+        el = Eliza()
         self.assertIsNone(el._match_decomp(['*', 'a'], ['a', 'b']))
         self.assertIsNone(el._match_decomp(['*', 'a'], ['0', 'a', 'b']))
         self.assertIsNone(el._match_decomp(['*', 'a'], ['0', '1', 'a', 'b']))
 
     def test_decomp_9(self):
-        el = eliza.Eliza()
+        el = Eliza()
         self.assertEqual([['0'], ['b']],
                          el._match_decomp(['*', 'a', '*'], ['0', 'a', 'b']))
         self.assertEqual([['0'], ['b', 'c']],
@@ -91,7 +90,7 @@ class ElizaTest(unittest.TestCase):
                                           ['0', 'a', 'b', 'c']))
 
     def test_decomp_10(self):
-        el = eliza.Eliza()
+        el = Eliza()
         self.assertEqual([['0'], []],
                          el._match_decomp(['*', 'a', '*'], ['0', 'a']))
         self.assertEqual([[], []], el._match_decomp(['*', 'a', '*'], ['a']))
@@ -99,7 +98,7 @@ class ElizaTest(unittest.TestCase):
                          el._match_decomp(['*', 'a', '*'], ['a', 'b']))
 
     def test_syn_1(self):
-        el = eliza.Eliza()
+        el = Eliza()
         el.load('doctor.txt')
         self.assertEqual([['am']], el._match_decomp(['@be'], ['am']))
         self.assertEqual([['am']], el._match_decomp(['@be', 'a'], ['am', 'a']))
@@ -107,19 +106,19 @@ class ElizaTest(unittest.TestCase):
                          el._match_decomp(['a', '@be', 'b'], ['a', 'am', 'b']))
 
     def test_syn_2(self):
-        el = eliza.Eliza()
+        el = Eliza()
         el.load('doctor.txt')
         self.assertIsNone(el._match_decomp(['@be'], ['a']))
 
     def test_syn_3(self):
-        el = eliza.Eliza()
+        el = Eliza()
         el.load('doctor.txt')
         self.assertIsNotNone(
             el._match_decomp(['*', 'i', 'am', '@sad', '*'],
                              ['its', 'true', 'i', 'am', 'unhappy']))
 
     def test_response_1(self):
-        el = eliza.Eliza()
+        el = Eliza()
         el.load('doctor.txt')
         self.assertEqual('In what way ?', el.respond('Men are all alike.'))
         self.assertEqual(
@@ -167,7 +166,7 @@ class ElizaTest(unittest.TestCase):
             ])
 
     def test_response_2(self):
-        el = eliza.Eliza()
+        el = Eliza()
         el.load('doctor.txt')
         self.assertEqual(el.initial(), 'How do you do.  Please tell me your problem.')
         self.assertIn(el.respond('Hello'), [
